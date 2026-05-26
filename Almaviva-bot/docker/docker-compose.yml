@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  almaviva-bot:
+    build: .
+    container_name: almaviva-bot
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8000:8000"
+    environment:
+      - ALMAVIVA_DEBUG=0
+    restart: unless-stopped

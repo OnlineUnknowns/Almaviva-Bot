@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+playwright
+requests
+python-dotenv
+sqlalchemy
+alembic
+pydantic
+httpx
+pytest
+pytest-asyncio
+pytest-cov
+python-multipart
